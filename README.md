@@ -14,3 +14,5 @@ This kernel is for SM-G950N. (Galaxy S8 Korean variant)
 3. Use `bash build_kernel.sh` to build kernel.
 4. New boot.img will be created in `AIK_Linux/`
 
+### Credits
+* [Introduce Exynos dtbtool to the Linux build system](https://github.com/jcadduono/android_kernel_samsung_universal8895/commit/945a8df88cf1d783407a36b660e8c767634a1968)
