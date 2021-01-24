@@ -4,6 +4,10 @@ This kernel is KVM enabled kernel for my test<br/>
 You can build and use if you want<br/>
 This kernel is for SM-G950N. (Galaxy S8 Korean variant)
 
+### Fixes of kernel
+* Virtualization, KVM enabled
+* Add dtbtool for make boot.img
+
 ### How to build
 1. Use `git submodule update --init --recursive` in the repository to import Android Image Kitchen.
 2. Unpack original Galaxy S8 boot.img with `AIK-Linux/unpackimg.sh`. It will be extracted to `AIK-Linux/split_img/`.
